@@ -2,7 +2,8 @@
 
 > **IoT-based Real-Time Weather and Air Quality Station Using ESP32, DHT22, and Blynk**
 
-![System Overview](images/system_overview.png)
+![System Overview] ![Final_image](https://github.com/user-attachments/assets/fa5f54fb-0f88-487f-a755-f877666a7d95)
+
 
 This project implements a smart weather and gas monitoring system using the ESP32 microcontroller. It measures temperature, humidity, gas levels, and rainfall, and visualizes the data in real-time using the **Blynk IoT platform**. Ideal for environmental monitoring applications.
 
@@ -20,20 +21,20 @@ This project implements a smart weather and gas monitoring system using the ESP3
 
 ## 🧰 Hardware Requirements
 
-| Component         | Description                         | Image |
-|------------------|-------------------------------------|-------|
-| ESP32            | Wi-Fi-enabled microcontroller        | ![](images/ESP32-Pinout.webp) |
-| DHT22            | Temperature & Humidity sensor        | ![](images/mpu6050.jpeg) |
-| MQ Gas Sensor    | Analog gas detection                 | ![](images/BO%20motor.jpeg) |
-| Rain Sensor      | Analog and digital output supported  | ![](images/Breadboard%20power%20supply%20module.jpg) |
-| Battery (e.g., 2200mAh) | Power source                 | ![](images/2200mah.jpeg) |
+| Component         | Description                         | Image                               |
+|------------------|--------------------------------------|-------------------------------------|
+| ESP32            | Wi-Fi-enabled microcontroller        |![ESP32-Pinout](https://github.com/user-attachments/assets/7767a8cc-4f14-4b59-ae00-fce8d603ae93)               |
+| DHT22            | Temperature & Humidity sensor        | ![dht22](https://github.com/user-attachments/assets/89ff8a1d-00bb-4063-8a18-b8d7dc72bf8d)                                        |
+| MQ Gas Sensor    | Analog gas detection                 | ![download](https://github.com/user-attachments/assets/2d277a2b-33ca-4326-b074-299847b136a0)                                        |
+| Rain Sensor      | Analog and digital output supported  | <img width="243" height="208" alt="rain" src="https://github.com/user-attachments/assets/85955008-e726-4b6a-898e-300369dd382f" />                                                                                              |
+| Battery (e.g., 1200mAh) | Power source                  | ![images](https://github.com/user-attachments/assets/95248083-066c-481e-af7a-6dac3bd5a3ca)                                        |
 
 ---
 
 ## 🗂️ File Overview
 
 | File Name            | Description                      |
-|---------------------|----------------------------------|
+|---------------------|----------------------------------                     |
 | `sketch_nov28a.ino` | Main Arduino code for ESP32 setup and sensor readings |
 | `README.md`         | Project documentation (this file) |
 
